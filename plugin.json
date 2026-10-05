@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "id": "aio",
+  "version": "0.1.0",
+  "name": {
+    "en": "AIO addon framework",
+    "ru": "Платформа аддонов AIO"
+  },
+  "description": {
+    "en": "AIO addon framework for LonelyIce",
+    "ru": "Платформа аддонов AIO для LonelyIce"
+  },
+  "authors": [
+    "Rochet2"
+  ],
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/LonelyIceProject/aio-plugin",
+  "locales": [
+    "*"
+  ],
+  "source": {
+    "repo": "https://github.com/Rochet2/AIO.git",
+    "commit": "087e279cdf90ff5d4343dc1569e9d3c3c5cc8548"
+  },
+  "depends": {
+    "mod-ale": "^0.1.0"
+  },
+  "client": {
+    "addons": [
+      "client/addons/AIO_Client"
+    ]
+  }
+}
